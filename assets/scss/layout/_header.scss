@@ -1,4 +1,25 @@
-.header{
-  background: #69F0AE;
-  font-size: 64px;
+body{
+  padding-top:80px;
+  font-family: 'Yeseva One','Noto Serif TC';
+
+}
+.navbar-brand img{
+    max-width:40px;
+  }
+
+
+.input-group{
+  height:39px;
+
+}
+@media (min-width:992px){
+  .input-group{
+    height:55px;
+  }
+  .navbar-brand img{
+    max-width:53px;
+    }
+  body{
+    padding-top:135px;
+  }
 }

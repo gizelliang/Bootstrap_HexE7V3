@@ -1,3 +1,156 @@
 .index-title {
   font-size: 100px;
+
+}
+.carousel-item{
+  height:350px;
+  @media (min-width:992px) {
+    height:518px;
+  }
+}
+.carousel-caption{
+
+h4{
+  font-family: 'Noto Serif TC';
+}
+  p{
+    font-family:'Noto Sans TC';
+  }
+  span{
+    font-family:'Yeseva One';
+    font-size:$font-size-base*2;
+    @media (min-width:992px) {
+      font-size:60px;
+    }
+   
+  }
+}
+
+
+.text-banner{
+  font-family:'Yeseva One', 'Noto Serif TC';
+  
+}
+
+.button-context,.button-text{
+  height:112px;
+  img{
+    width:40px;
+    height:40px;
+    @media (min-width:992px) {
+      width:80px;
+      height:80px;
+      }
+  }
+  p{
+    font-size:$font-size-base;
+    @media (min-width:992px) {
+      font-size:$font-size-base*1.5;
+      }
+  }
+  @media (min-width:992px) {
+  height:196px;
+ 
+  }
+  font-family: 'Noto Serif TC';
+}
+
+.button-text p{
+  color:yellow;
+  font-size:$font-size-base *1.5;
+  @media(min-width: 992px){
+    font-size:$font-size-base * 3;
+  }
+ 
+ 
+}
+
+.blog-area-title{
+  font-size:$font-size-base * 2;
+  font-family: 'Yeseva One';
+  @media(min-width:992px){
+    font-size:$font-size-base *3;
+  }
+}
+
+.blog-card-title{
+  font-size:$font-size-base * 1.125;
+  font-family: 'Noto Serif TC';
+  @media(min-width:992px){
+    font-size:$font-size-base *1.5;
+  }
+}
+
+.blog-card-text{
+  font-family:'Noto Sans TC';
+}
+
+.blog-card-bottom img{
+ width:20px;
+ height:20px;
+ @media(min-width:992px){
+  width:24px;
+  height:24px;
+}
+}
+.blog-card-bottom{
+  padding-top: 12.5px;
+  padding-bottom: 12.5px;
+}
+
+.card-img-top{
+  height:210px;
+  
+  @media(min-width:992px){
+   
+    height:255px;
+  }
+}
+
+.sparkle-text{
+  font-family:'Noto Serif TC' ;
+}
+
+.icon-text{
+  font-family:'Noto Sans TC';
+}
+
+.bottom-wrap button{
+  border:1px solid black;
+  border-left:3px solid black;
+  &:hover{
+    color:white;
+    background-color:black;
+    border-left:3px solid yellow;
+  }
+}
+
+
+
+.online-ad .card{
+  outline:1px solid red;
+  height:503px;
+  @media(min-width:992px){
+   
+    height:317px;
+  }
+  
+}
+
+.card-img{
+  height:158px;
+
+  @media(min-width:992px){
+   
+    height:317px;
+  }
+}
+.card-button button{
+  border:1px solid black;
+  border-left:3px solid black;
+  &:hover{
+    color:white;
+    background-color:black;
+    border-left:3px solid yellow;
+  }
 }
