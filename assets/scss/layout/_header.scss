@@ -1,12 +1,17 @@
 body{
   padding-top:80px;
-  font-family: 'Yeseva One','Noto Serif TC';
-
+  font-style:normal;
 }
 .navbar-brand img{
     max-width:40px;
   }
+.navbar-right .nav-link{
+  font-style: normal;
+  &:hover{
+    color:rgba(156, 158, 24, 1);
 
+  }
+}
 
 .input-group{
   height:39px;
