@@ -154,3 +154,63 @@ h4{
     border-left:3px solid yellow;
   }
 }
+
+.hover-underline-animation {
+  display: inline-block;
+  position: relative;
+  color:$primary;
+}
+
+.hover-underline-animation::after {
+  content: '';
+  position: absolute;
+  width: 50%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: $primary;
+  transform-origin:bottom left;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+.hover-underline-animation::before {
+  content: '';
+  position: absolute;
+  width: 50%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  right: 50%;
+  background-color:$primary;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+
+.hover-underline-animation:hover::before {
+  transform: scaleX(1);
+  transform-origin: bottom right;
+}
+
+.circle-hover-animation{
+  position:relative;
+ 
+}
+
+
+.circle-hover-animation:hover::before{
+  position:absolute;
+  content:"";
+  width:29px;
+  height:29px;
+  border-radius: 50%;
+  background: yellow;
+  transform: translate(-.75rem, 0%);
+  opacity: 0.5;
+
+ 
+}
