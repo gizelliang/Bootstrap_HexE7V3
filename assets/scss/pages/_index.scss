@@ -219,3 +219,39 @@ h4{
 
  
 }
+
+$placeholder: ('::-webkit-input-placeholder', ':-moz-placeholder', '::-moz-placeholder', ':-ms-input-placeholder', '::input-placeholder', '::placeholder');
+@each $selector in $placeholder {
+  #{$selector} {
+    font-family: 'Noto Sans TC';
+    font-size: 1 rem;
+    color: rgba(135, 135, 135, 1);
+    padding-left: $spacer*1.5;
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+  }
+}
+
+.social-info input{
+  height:55px;
+}
+
+.email ,.phone ,.facebook{
+    color:$primary;
+    &:hover{
+    color:rgba(156, 158, 24, 1);
+    }
+  
+}
+
+.email i ,.phone i ,.facebook i{
+  color:white;
+  &:hover{
+  color:rgba(156, 158, 24, 1);
+  }
+
+}
+
+.social-info-text{
+  padding-bottom: 58px;
+}
