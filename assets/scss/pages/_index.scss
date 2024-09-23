@@ -128,7 +128,6 @@ h4{
 
 
 .online-ad .card{
-  outline:1px solid red;
   height:503px;
   @media(min-width:992px){
    
@@ -154,6 +153,12 @@ h4{
     border-left:3px solid yellow;
   }
 }
+
+.full-button:hover{
+  color:yellow;
+}
+
+//Blog Area Animation
 
 .hover-underline-animation {
   display: inline-block;
