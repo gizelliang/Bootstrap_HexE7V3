@@ -216,7 +216,7 @@ h4{
   background: yellow;
   transform: translate(-.75rem, 0%);
   opacity: 0.5;
-
+  transition: 5s ease-in-out;
  
 }
 
@@ -246,12 +246,22 @@ $placeholder: ('::-webkit-input-placeholder', ':-moz-placeholder', '::-moz-place
 
 .email i ,.phone i ,.facebook i{
   color:white;
+  width:32px;
+  height:32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   &:hover{
   color:rgba(156, 158, 24, 1);
   }
 
 }
 
-.social-info-text{
-  padding-bottom: 58px;
+.contact-info{
+  height:338px;
+  @media(min-width:992px){
+   
+    height:371px;
+  }
 }
+
